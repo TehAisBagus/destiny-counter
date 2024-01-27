@@ -1,0 +1,14 @@
+.counter-container {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2C2F33;
+  color: white;
+}
+
+button {
+  margin-bottom: 16px;
+}

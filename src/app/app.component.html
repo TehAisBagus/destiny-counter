@@ -1,0 +1,27 @@
+<div class="counter-container">
+  <div>
+    <h1>
+      Destiny has been mentioned {{ counter }} times in the Warframe Community
+      Discord!
+    </h1>
+  </div>
+  <br />
+  <div>
+    <button mat-raised-button color="primary" (click)="increaseCounter()">
+      Increase
+    </button>
+  </div>
+  <div>
+    <button mat-raised-button color="warn" (click)="resetCounter()">
+      Reset
+    </button>
+  </div>
+  <div>
+    <h2>Time last pressed: {{ lastPressed | date : "long" : "CDT" }}</h2>
+  </div>
+  <div>
+    <button mat-raised-button color="warn" (click)="clearSiteData()">
+      Clear site data from local storage
+    </button>
+  </div>
+</div>
